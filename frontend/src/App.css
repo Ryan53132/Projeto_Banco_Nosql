@@ -1,0 +1,120 @@
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  text-align: left;
+}
+
+.card {
+  border: 1px solid #d4d4d8;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+  color: #18181b;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input:not([type="checkbox"]) {
+  padding: 8px 10px;
+  border: 1px solid #a1a1aa;
+  border-radius: 6px;
+  font: inherit;
+}
+
+button {
+  padding: 8px 12px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.ghost {
+  background: transparent;
+  color: #2563eb;
+  border-color: #2563eb;
+}
+
+button.danger {
+  background: #dc2626;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.item .content {
+  flex: 1;
+}
+
+.item .content p {
+  margin: 4px 0;
+}
+
+.item.done strong {
+  text-decoration: line-through;
+  color: #71717a;
+}
+
+.edit {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  gap: 6px;
+}
+
+.muted {
+  color: #71717a;
+}
+
+.error {
+  color: #dc2626;
+  background: #fee2e2;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.whoami {
+  margin-bottom: 16px;
+}
+
+.whoami p {
+  margin: 8px 0 4px;
+}
+
+.whoami ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.list {
+  margin-top: 16px;
+}
