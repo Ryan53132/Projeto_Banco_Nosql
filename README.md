@@ -2,7 +2,7 @@
 
 Aplicação web simples para gerenciamento de itens, desenvolvida para demonstrar o uso de um banco de dados NoSQL **Redis** com uma API Python e uma interface web. O projeto implementa operações de criação, consulta, atualização e exclusão (CRUD), além de um índice ordenado por data de criação.
 
-<video src="videos/video.mp4" controls width="640"></video>
+[![Assistir vídeo de demonstração]](videos/video.mp4)
 
 ## Objetivo
 
